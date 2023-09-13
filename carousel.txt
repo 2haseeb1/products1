@@ -1,0 +1,37 @@
+ <div>
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                      <img src="./images/banner1.png" class="w-full" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle bg-black outline-none border-none text-white">❮</a> 
+                        <a href="#slide2" class="btn btn-circle bg-black outline-none border-none text-white">❯</a>
+                      </div>
+                      <div class="absolute top-0 right-5 text-white md:text-[72px] font-bold text-[26px]  container mx-auto">
+                        <div class="flex justify-center flex-col items-center ">
+                            <p >Exotic tastes at your </p>
+                            <p>doorstep</p>
+                            <p class="text-white font-normal text-lg"
+                          ">We supply highly quality organic products</p>
+                          <div>
+                            
+                            <button class="btn btn-primary bg-[#F85559] text-white outline-none border-none normal-case text-[20px]">Shop Now</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div> 
+                    <div id="slide2" class="carousel-item relative w-full">
+                      <img src="./images/banner2.png"  class="w-full" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a> 
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide3" class="carousel-item relative w-full">
+                      <img src="./images/banner3.png"  class="w-full" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a> 
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                  
+            </div>
